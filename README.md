@@ -23,7 +23,7 @@ In settings you have:
 This menu allows you to control the scale and some other block display related stuff.
 ## How to unistall the datapack:
 Enter your world, write this command: `/function bdb:uninstall`, leave the world and delete the datapack from your world folder.
-**NOTE**:
+##### **NOTE**:
 1. When you use the uninstall function the datapack will not be able to work properly unless you restart the world or type: `/reload`.
 2. The uninstall function deletes only scoreboards; it does not remove data storages.
 ## Features:
