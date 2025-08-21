@@ -1,4 +1,4 @@
-# Block-Display-Builder
+ # Block-Display-Builder
 ## WARNING:
 - Use it at your own risk, this datapack create entities which means that the more you create the more lag you add to your world or server.
 - I recomend creating a backup of your minecraft world before using it.
@@ -6,8 +6,9 @@
 - This datapack uses the [blockstate](https://github.com/Triton365/BlockState) datapack by Triton365.
 - You will find his MIT license in the datapack here: `data/bdb/loot_table/LICENSE`
 ## How to install it:
-1. Navigate your world folder which is located by default in `C:\Users\<username>\AppData\Roaming\.minecraft\saves\<your_world_folder>` in windows.
-2. In your **world folder** go to `datapacks` and put the datapack you downloaded it their.
+1. Download the datapack from [this page](https://github.com/mrGrayJacket/Block-Display-Builder/releases).
+2. Navigate your world folder which is located by default in `C:\Users\<username>\AppData\Roaming\.minecraft\saves\<your_world_folder>` in windows.
+3. In your **world folder** go to `datapacks` and put the datapack you downloaded it their.
 ## How to use:
 ### Getting the menu:
 Their is two ways to get it:
