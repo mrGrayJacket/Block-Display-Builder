@@ -6,7 +6,7 @@
 - This datapack uses the [blockstate](https://github.com/Triton365/BlockState) datapack by Triton365.
 - You will find his MIT license in the datapack here: `data/bdb/loot_table/LICENSE`
 ## How to install it:
-1. Download the datapack from [this page](https://github.com/mrGrayJacket/Block-Display-Builder/releases).
+1. Download the latest release of the datapack directly [here](https://github.com/mrGrayJacket/Block-Display-Builder/releases/download/v3.3.1/bdb3.3.1.zip) or see the releases in [this page](https://github.com/mrGrayJacket/Block-Display-Builder/releases)
 2. Navigate your world folder which is located by default in `C:\Users\<username>\AppData\Roaming\.minecraft\saves\<your_world_folder>` in windows.
 3. In your **world folder** go to `datapacks` and put the datapack you downloaded it their.
 ## How to use:
