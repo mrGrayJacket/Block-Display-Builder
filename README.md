@@ -1,5 +1,4 @@
  # Block-Display-Builder
- ![App Icon](./icon.png)
 ## WARNING:
 - Use it at your own risk, this datapack create entities which means that the more you create the more lag you add to your world or server.
 - I recomend creating a backup of your minecraft world before using it.
