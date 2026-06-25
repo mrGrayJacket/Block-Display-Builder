@@ -6,9 +6,10 @@
 - This datapack uses the [blockstate](https://github.com/Triton365/BlockState) datapack by Triton365.
 - You will find his MIT license in the datapack here: `data/bdb/loot_table/LICENSE`
 ## How to install it:
-1. Download the latest release of the datapack directly [here](https://github.com/mrGrayJacket/Block-Display-Builder/releases/download/v3.3.1/bdb3.3.1.zip) or see the releases in [this page](https://github.com/mrGrayJacket/Block-Display-Builder/releases).
+1. Download the latest release of the datapack directly [here](https://github.com/mrGrayJacket/Block-Display-Builder/releases/download/v4.0/bdb4.0.zip) or see the releases in [this page](https://github.com/mrGrayJacket/Block-Display-Builder/releases).
 2. Navigate your world folder which is located by default in `C:\Users\<username>\AppData\Roaming\.minecraft\saves\<your_world_folder>` in windows.
 3. In your **world folder** go to `datapacks` and put the datapack you downloaded it their.
+4. If the datapack not working try restarting the world (this will fix it).
 ## How to use:
 ### Getting the menu:
 Their is two ways to get it:
@@ -25,7 +26,7 @@ This menu allows you to control the scale and some other block display related s
 Enter your world, write this command: `/function bdb:uninstall`, leave the world and delete the datapack from your world folder.
 ##### **NOTE**:
 1. When you use the uninstall function the datapack will not be able to work properly unless you restart the world or type: `/reload`.
-2. The uninstall function deletes only scoreboards; it does not remove data storages.
+2. The uninstall function deletes only scoreboards; ~~it does not remove data storages~~ (fixed in version 4.0).
 ## Features:
 - User friendly menu.
 - Simple display to show the selected area.
@@ -34,11 +35,11 @@ Enter your world, write this command: `/function bdb:uninstall`, leave the world
 - Saves the hotbar before start using the datapack (added in version 3.3+).
 ## Limitations:
 - ~~Water and lava can't be rendered~~ (Fixed...., kinda)
-- Chests and beds and some other special blocks will be broken.(due to how block display render them).
+- ~~Chests and beds and some other special blocks will be broken.~~ (FIXED in 4.0 THANKS MOJANG).
 - The more block display you add the more your world will lag.
 ## Future plans:
 - This datapack will be updated in my free time to match the latest releases of minecraft java.
-- Adding more control to the block display placement.
+- ~~Adding more control to the block display placement~~ (added in version 4.0).
 - Adding an animation section to save/load animations.
 - Fixing the limitation or at least making them less impacting.
-- Fixing my spagetti code before it gets worst.
+- ~~Fixing my spagetti code before it gets worst~~(fixed in 4.0 (I hope)).
