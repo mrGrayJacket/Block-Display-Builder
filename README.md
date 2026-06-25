@@ -4,7 +4,7 @@
 - I recomend creating a backup of your minecraft world before using it.
 ## Credit:
 - This datapack uses the [blockstate](https://github.com/Triton365/BlockState) datapack by Triton365.
-- You will find his MIT license in the datapack here: `data/bdb/loot_table/LICENSE`
+- You will find his MIT license in the datapack here: `data/bdb/loot_table/LICENSE` but in version 4.0 `data/LICENSE`
 ## How to install it:
 1. Download the latest release of the datapack directly [here](https://github.com/mrGrayJacket/Block-Display-Builder/releases/download/v4.0/bdb4.0.zip) or see the releases in [this page](https://github.com/mrGrayJacket/Block-Display-Builder/releases).
 2. Navigate your world folder which is located by default in `C:\Users\<username>\AppData\Roaming\.minecraft\saves\<your_world_folder>` in windows.
