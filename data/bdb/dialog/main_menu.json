@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "======================== Block Display Builder 3.3 ===================",
+    "color": "gray",
+    "bold": true
+  },
+  "exit_action": {
+    "label": "Close"
+  },
+  "columns": 1,
+  "body": [
+    {
+    "type": "minecraft:item",
+    "item": {
+      "id": "minecraft:glistering_melon_slice"
+    },
+    "description": [
+    {
+      "text": "The message must be spread:    \n\n",
+      "color": "aqua"
+    },
+    {
+      "text": "Free Palestine     ",
+      "color": "red"
+    }
+  ],
+    "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "--------------------------------",
+        "color": "gray"
+      }
+    }
+  ],
+  "actions": [
+    {
+      "label": {
+      "text":"Select Positions",
+      "color":"green"
+    },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger bdb.menu set 1001"
+      }
+    },
+    {
+      "label": "Block Display Values...",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger bdb.menu set 3001"
+      }
+    },
+    {
+      "label": "Settings...",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger bdb.menu set 2001"
+      }
+    },
+    {
+      "label": "About Datapack",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "bdb:about_datapack"
+      }
+    },
+    {
+      "label": "Credit",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "bdb:credit"
+      }
+    }
+  ]
+}

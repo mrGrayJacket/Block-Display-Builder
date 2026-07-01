@@ -1,0 +1,121 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "============================ About datapack =======================",
+    "color": "yellow",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:book"
+      },
+      "description": {
+        "text": "Informations:",
+        "color": "green",
+        "underlined": true
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "- This datapack aim to transform any build you want into block display entities to animate or move your builds smoothly.",
+          "color": "aqua"
+        },
+        "\n\n",
+        {
+          "text": "- Every block display or shulker (in collision mode) has the tag \"bd\" and you can change that after the process finish.",
+          "color": "aqua"
+        },
+        "\n\n",
+        {
+          "text": "- The collisions (shulkers) are seperated from the block display with the tag \"collision\" for easy control.",
+          "color": "aqua"
+        },
+        "\n\n",
+        {
+          "text": "- Every single block display and shulker created has a specific tag represent its coordinate, starting from 0 (from pos3) to the last number of your build created as the following: ",
+          "color": "aqua"
+        },
+        {
+          "text": "\"x<theNumber>\" and \"y<theNumber>\" and \"z<theNumber>\"",
+          "bold": true,
+          "color": "blue"
+        },
+        "\n"
+      ],
+      "width": 400
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:light"
+      },
+      "description": {
+        "text": "Examples:",
+        "color": "dark_green",
+        "underlined": true
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "- Let's say you want to teleport a specific layer in x coordinate 5 blocks up, you can use:",
+          "color": "aqua"
+        },
+        "\n",
+        {
+          "text": "/execute as @e[tag=x0] at @s run tp @s ~ ~5 ~",
+          "bold": true,
+          "color": "green"
+        },
+        "\n\n",
+        {
+          "text": "- Let's say you don't want to move the collision, you can use:",
+          "color": "aqua"
+        },
+        "\n",
+        {
+          "text": "/execute as @e[tag=x0,tag=!collision] at @s run tp @s ~ ~5 ~",
+          "bold": true,
+          "color": "green"
+        },
+        "\n\n",
+        {
+          "text": "- You can even control a specific block if you want, by specifying all its coordinates:",
+          "color": "aqua"
+        },
+        "\n",
+        {
+          "text": "/execute as @e[tag=x0,tag=y0,tag=z0] at @s run tp @s ~ ~5 ~",
+          "bold": true,
+          "color": "green"
+        },
+        "\n\n",
+        {
+          "text": "- You can apply any command you want like /kill or /data.",
+          "color": "aqua"
+        },
+        "\n\n",
+        {
+          "text": "- Air blocks still counts but you can't run command on them for example let's say that you want to move the block display with the cordinate x0 y5 z9 but it is an air block, in this scenario the command will not run because their is no block display in this coordinate.",
+          "color": "aqua"
+        },
+        "\n\n\n\n"
+      ],
+      "width": 400
+    }
+  ],
+  "action": {
+    "label": "Done",
+    "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "bdb:main_menu"
+    }
+  }
+}

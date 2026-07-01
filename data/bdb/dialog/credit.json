@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "text": "==================== Credit ==================",
+    "color": "aqua",
+    "bold": true
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "===============\nBy Gray_jacket\n===============",
+        "color": "gray"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Thanks to the amazing creators who made this project possible:\n\n",
+        "color": "gold"
+      },
+      "width": 350
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [{
+        "text": "- Triton365 for creating \"blockstate\" which contain all minecraft blocks.",
+        "color": "aqua",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://github.com/Triton365/BlockState"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": "Click to get the link"
+        }
+      },"\n\n",
+      {
+        "text": "- Misode for creating an amazing json generator.     ",
+        "color": "aqua",
+        "click_event": {
+          "action": "open_url",
+          "url": "https://misode.github.io"
+        },
+        "hover_event": {
+          "action": "show_text",
+          "value": "Click to get the link"
+        }
+      }
+    ],
+    "width": 320
+    }
+  ],
+  "action": {
+    "label": "Done",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "bdb:main_menu"
+    }
+  }
+}

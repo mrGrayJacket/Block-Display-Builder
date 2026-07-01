@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:confirmation",
+  "title": {
+    "text": "====================================== Tag ==================================",
+    "color": "blue"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:name_tag"
+      },
+      "description": {
+        "text": "Info",
+        "color": "green",
+        "bold": true,
+        "underlined": true
+      },
+      "show_tooltip": false
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "- Tags with namespaces are not allowed.   ",
+          "color": "aqua"
+        },
+        "\n\n",
+        {
+          "text": "- The default tag is \"bd\".                      ",
+          "color": "aqua"
+        },
+        "\n\n",
+        {
+          "text": "- Setting a tag removes \"bd\".                 "
+        },
+        "\n\n",
+        {
+          "text": "- Can't edit structures with non-\"bd\" tags.",
+          "color": "aqua"
+        },
+        "\n\n"
+      ],
+      "width": 350
+    }
+  ],
+  "inputs": [
+    {
+      "type": "minecraft:text",
+      "key": "tag",
+      "label": {
+        "text": "- Give to your structure a tag:",
+        "color": "gray"
+      }
+    }
+  ],
+  "yes": {
+    "label": "Apply",
+    "action": {
+      "type": "minecraft:dynamic/run_command",
+      "template": "function bdb:into_entity/tag {tag:\"$(tag)\"}"
+    }
+  },
+  "no": {
+    "label": "Cancel"
+  }
+}

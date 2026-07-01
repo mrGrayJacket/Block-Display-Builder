@@ -1,0 +1,1 @@
+$function bdb:hotbar/load/load_process2 with storage bdb:player_hotbar hotbar[$(index)]

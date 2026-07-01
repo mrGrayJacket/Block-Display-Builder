@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:consumable": {
+              "consume_seconds": 1000000,
+              "animation": "none",
+              "has_consume_particles": false
+            }
+          },
+          "predicates": {
+            "minecraft:custom_data": {
+                "bdb.right_click_continuous":true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "bdb:right_click/continuous_logic"
+  }
+}
